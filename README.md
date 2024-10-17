@@ -7,15 +7,15 @@
 1. Run the containers by executing the following from root :- 
     `docker-compose -f DockerCompose/docker-compose.yml up -d`
     
-    This will start 3 containers (1 postgres db for the app)
+    This will start 1 container (1 postgres db for the app)
 2. Run the springboot application through GUI or commnad :- `./mvnw spring-boot:run`
 3. Check App functionality <br>
     Access the url :- http://localhost:8080/message
 
-##### Steps to check code-quality through sonarqube
+### Steps to check code-quality through sonarqube
 
 1. Setup sonarqube by downloading and unzipping https://www.sonarsource.com/products/sonarqube/downloads/success-download-community-edition/
-2. Run sonarqube server based on operating system 
+2. Run sonarqube server based on operating system ,
     For MacOS :- 
     ```
     cd bin/macosx-universal-64/ 
