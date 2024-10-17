@@ -35,3 +35,5 @@
     `./mvnw clean install sonar:sonar -Dsonar.token=sqa_973d46e93061f05ba8e33b8ade98ae835cf5b6f7`
 7. You should be able to access code quality analysis report at localhost:9000
 8. If the code analysis fails at Quality Gate then create a more lenient quality check gate at http://localhost:9000/quality_gates/ and run  step #6 again
+
+![Sonarqube_Dashboard](/sonarqube.png) 
